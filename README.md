@@ -2,7 +2,7 @@
 git clone https://github.com/75hz1/SmsBomb.git  
 
 
-cd bomber
+cd SmsBomb
 
 
 pip3 install -r requirements.txt
