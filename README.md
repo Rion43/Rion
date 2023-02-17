@@ -1,5 +1,5 @@
 
-git clone https://github.com/75hz1/SmsBomber.git  
+git clone https://github.com/75hz1/SmsBomb.git  
 
 
 cd bomber
