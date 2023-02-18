@@ -43,7 +43,7 @@ while 1:
     if menu == 1:
         system("cls||clear")
         try:
-            print(Fore.LIGHTYELLOW_EX + "Telefon numarasını başında '+90' olmadan yazınız (birden çoksa 'enter' bas): "+ Fore.LIGHTGREEN_EX, end="")
+            print(Fore.LIGHTYELLOW_EX + "Telefon numarasını başında '+90' olmadan yazınız (yollamak icin sabırsızlanıom seri): "+ Fore.LIGHTGREEN_EX, end="")
             tel_no = input()
             if tel_no != "" and len(str(tel_no)) == 10:
                 tel_no2 = "bos"
@@ -116,7 +116,7 @@ while 1:
         system("cls||clear")
         try:
             print(Fore.LIGHTGREEN_EX+"[+] "+Fore.CYAN+"Birden çok numara varsa her bir numara için.")
-            print(Fore.LIGHTYELLOW_EX + "Kaç adet SMS göndermek istiyorsun (sonsuz ise 'enter' bas): "+ Fore.LIGHTGREEN_EX, end="")  
+            print(Fore.LIGHTYELLOW_EX + "Kaç adet SMS göndermek istiyon la (sonsuz ise 'enter' bas): "+ Fore.LIGHTGREEN_EX, end="")  
             kere = input()
             if kere:
                 kere = int(kere)
@@ -130,7 +130,7 @@ while 1:
 
         system("cls||clear")
         try:
-            print(Fore.LIGHTYELLOW_EX + "Kaç saniye aralıkla göndermek istiyorsun: "+ Fore.LIGHTGREEN_EX, end="")
+            print(Fore.LIGHTYELLOW_EX + "Kaç saniye aralıkla göndermek istiyorsun seri cvp : "+ Fore.LIGHTGREEN_EX, end="")
             aralik = int(input())
         except ValueError:
             system("cls||clear")
@@ -153,7 +153,7 @@ while 1:
                                       break
                                   exec("sms."+attribute+"()")
                                   sleep(aralik)
-                  print(Fore.LIGHTRED_EX + "\nMenüye dönmek için 'enter' tuşuna basınız..")
+                  print(Fore.LIGHTRED_EX + "\nMenüye dönmek için 'enter' tuşuna bas ok?..")
                   input()
         elif kere is None: 
                   while True:
@@ -165,5 +165,5 @@ while 1:
                                sleep(aralik)
     elif menu == 2:
         system("cls||clear")
-        print(Fore.LIGHTRED_EX + "Çıkış yapılıyor...")
+        print(Fore.LIGHTRED_EX + "Çıkış yapıo bkle...")
         break
