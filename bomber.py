@@ -26,13 +26,13 @@ while 1:
   
 ▀▀▀▀▀▀▀▀▀▀▀▀▀▀
 ▀ ▀
-▀ !GEİST BOMB ▀
+▀  B0MB3RRRR ▀
 ▀ ▀
 ▀▀▀▀▀▀▀▀▀▀▀▀▀▀          
 
     Sms: {}                                      
     """.format(Fore.LIGHTRED_EX, len(servisler_sms), Style.RESET_ALL, Fore.CYAN))
-    print(Fore.LIGHTGREEN_EX+"{/} "+Style.RESET_ALL+"Katkıda bulunanlar: "+Fore.LIGHTGREEN_EX+Style.BRIGHT+"edited by geist,\n"+Style.RESET_ALL)
+    print(Fore.LIGHTGREEN_EX+"{/} "+Style.RESET_ALL+"Katkıda bulunanlar: "+Fore.LIGHTGREEN_EX+Style.BRIGHT+"edited by kimligi belirsiz velet,\n"+Style.RESET_ALL)
     try:
         menu = int(input(Fore.LIGHTMAGENTA_EX + " 1- SMS Gönder\n 2- Çıkış\n\n" + Fore.LIGHTYELLOW_EX + " Seçim: "))
     except ValueError:
